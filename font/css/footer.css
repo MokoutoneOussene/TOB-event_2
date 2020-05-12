@@ -1,0 +1,94 @@
+
+
+footer{
+      background-color: #f8f9fa;
+      color: rgb(0, 0, 0);
+      height: auto;
+    }
+
+.icon{
+    width: 50px;
+    height: 50px;
+}
+
+section{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.cont-block{
+    display: flex;
+    flex-direction: column;
+}
+.global{
+    display: flex;
+    flex-direction: column;
+}
+.global>div{
+    display: flex;
+    flex-direction: row;
+}
+   .contenu-contener{
+    margin: 0px; 
+    padding: 5px;
+    width: 83%;
+   }
+   .contenu-contener2{
+    display: flex;
+    flex-direction: row;
+    flex-basis: 1;
+    margin: 6em;
+   }
+   .niv-bas{
+    display: flex;
+    flex-direction: row;
+    width: 83%;
+    height: auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+   }
+   .niv1-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border-bottom: 2px solid #e8eaed;
+   }
+   .niv2-foot{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(177, 221, 245);
+    width: 100%;
+    height: auto;
+   }
+   .niv3-foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   }
+   
+    .gauche{
+        width: 20%;
+    
+    }
+    .droite{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+    }
+    .logo-footer{
+        width: 100%;
+        
+    }
+    .qui-sommes-nous{
+        width: 40%;
+        border-right: 1px solid black;
+        border-left: 1px solid black;
+        padding: 10px;
+    }
+    .nous-contacter{
+        width: 40%;
+        padding: 10px;
+    }
+    h3{
+        background-color: rgb(242, 220, 220);
+    }

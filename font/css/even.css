@@ -1,0 +1,92 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.menu{
+    color: blue;
+    margin-right: 50px;
+}
+
+.deconn{
+    margin-left: 20em;
+}
+
+#nav{
+    background-color: rgb(236, 240, 243);
+}
+
+.collaps{
+    position: sticky;
+    z-index: 1000;
+    margin-top: 25px;
+}
+
+#contenair{
+    display: flex;
+    max-width: 100%;
+}
+
+.liste{
+    width: 65%;
+    height: auto;
+    margin-right: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.liste-modif{
+    width: 100%;
+    height: 100%;
+    margin-right: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background-image: url("../picture/2.jpg");
+}
+
+.form
+{
+    width: 35%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.btn
+{ 
+    background-color:transparent;
+    color: black;
+    border:1px solid blue;
+}
+
+.btn:hover
+{
+   
+    background-color:blue;
+}
+
+h3{
+text-align: center;
+text-transform: uppercase;
+font-family: "high tower text";
+margin-bottom: 0.5em;
+margin-top: 0.5em;
+background-color: rgb(193, 193, 243);
+}
+
+.logo{
+    width: 10%;
+    margin-right: 80px;
+}
+
+#cont-comment{
+    display: flex;
+    max-width: 100%;
+}
+
+.liste-comment{
+    width: 100%;
+    height: auto;
+    margin-right: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
